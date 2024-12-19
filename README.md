@@ -13,6 +13,17 @@ A comprehensive guide about proxy pattern implementation in Java, including:
 - Spring AOP proxy implementation
 - Best practices and troubleshooting
 
+### Java Development
+
+#### Core Java
+- [Java Date and Time API](./java/2024-03-20-java-date-and-time.md): Understanding and working with dates and times in Java
+
+#### Web Development
+- [ServletContext and JVM](./java/servletcontext-and-jvm.md): Understanding ServletContext lifecycle and JVM interaction
+
+### Chat Archives
+- [Java Date and Time Discussion](./chats/2024-03-20-java-date-and-time.md)
+
 ## License
 
 MIT License
