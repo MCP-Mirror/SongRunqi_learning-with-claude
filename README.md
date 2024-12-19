@@ -2,6 +2,21 @@
 
 This repository contains my learning notes and discussions with Claude about various software development topics.
 
+## Contents Catalog
+
+```
+.
+├── README.md
+└── proxy-pattern/
+    └── proxy-discussion.md
+        ├── Remote Proxy Pattern
+        ├── Java RMI Implementation
+        ├── Dynamic Proxy in Java
+        ├── Spring AOP and Proxy Pattern
+        ├── Best Practices and Considerations
+        └── Troubleshooting Common Issues
+```
+
 ## Topics Covered
 
 ### Design Patterns
