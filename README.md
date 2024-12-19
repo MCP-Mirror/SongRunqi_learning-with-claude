@@ -6,6 +6,7 @@ This repository stores my learning conversations with Claude. It serves as a kno
 
 - `/java`: Java-related learning content
   - `servletcontext-and-jvm.md`: Discussion about ServletContext and JVM concepts
+  - `2024-03-20-java-date-and-time.md`: Comprehensive guide to Java Date, MySQL timestamp, and UTC
 
 ## How to Use
 
@@ -18,5 +19,10 @@ Current topics include:
   - ServletContext Interface
   - JVM (Java Virtual Machine)
   - Web Application Containers
+  - Date and Time Handling
+    - java.util.Date vs java.time
+    - MySQL DATE and TIMESTAMP types
+    - UTC and timestamps
+    - Best practices for temporal data
 
 More topics will be added as our learning journey continues.
