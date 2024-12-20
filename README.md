@@ -23,6 +23,7 @@ My learning notes with Claude, focusing on software development topics.
   - Dynamic Proxy in Java
   - Spring AOP proxy implementation
   - Best practices and troubleshooting
+- [Proxy Pattern Discussion Part 1](./chats/2024-03-20-proxy-pattern-part1.md): Detailed discussion on Remote Proxy, Java RMI, and Spring AOP integration
 
 ## Content Features
 
@@ -36,6 +37,7 @@ My learning notes with Claude, focusing on software development topics.
 - `/java`: Java-related topics and examples
 - `/websocket`: WebSocket and real-time communication
 - `/proxy-pattern`: Design pattern implementations
+- `/chats`: Detailed technical discussions and learning journey
 
 ## License
 
