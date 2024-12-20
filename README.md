@@ -20,6 +20,7 @@ A comprehensive guide about proxy pattern implementation in Java, including:
 
 #### Web Development
 - [ServletContext and JVM](./java/servletcontext-and-jvm.md): Understanding ServletContext lifecycle and JVM interaction
+- [WebSocket and STOMP](./websocket/websocket-and-java-programming.md): Deep dive into WebSocket, STOMP protocol and Java concurrent programming
 
 ### Chat Archives
 - [Java Date and Time Discussion](./chats/2024-03-20-java-date-and-time.md)
