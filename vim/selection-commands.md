@@ -1,1 +1,63 @@
-IyBWaW0g6YCJ5oup5ZG95ZCNCgrov5nkuKrmlofmoaPmlbTnkIbkuoYgVmltIOS4reW4uOeUqOeahOS7o+eggeeahOaWh+acrOmAieaLqeWRveWQjeOAggoKIyMg5Z+65LqO57yp6L+b55qE5Luj56CB5Z2X6YCJ5oupCgp8IOWRveWQjCB8IOaPj+i/hyB8Cnwt4oCU4oCU4oCULXwt4oCU4oCU4oCU4oCULXwKfCBgdmlCYCB8IOmAieaLqeWklumDqOS7o+eggeeVjCB8CnwgYHZhQmAgfCDpgInmi6nllJbovrnku6PnoIHlnZflj4roh6roqIDmi5cg|CnwgYHZpe2AgfCDpgInmi6nokZfmi5flhoXnmoTlhoXlrrkg|CnwgYHZhe2AgfCDpgInmi6nohIDmi5flj4roh6rku6PnoIHlkI0g|CgojIyDln7rkuo7mipjlj7fnmoTpgInmi6kKCnwg5ZG95ZCNIHwg5o+P6L+HIHwKfC3igJTigJTigJQtfC3igJTigJTigJTigJQtfAp8IGB2aShgIHwg6YCJ5oup5bCP5oqY5Y+35YaF55qE5YaF5a65IHwKfCBgdmEoYCB8IOmAieaLqeWwj+aKmOWPt+WHoOmUruWGheWuuSB8CnwgYHZpW2AgfCDpgInmi6nkuK3mipjlj7flhoXnmoTlhoXlrrkg|CnwgYHZhW2AgfCDpgInmi6nkuK3mipjlj7flj4roh6rku6PnoIHlkI0g|CgojIyDln7rkuo7nm7TmnLrnmoTpgInmi6nltYzlrrUKCnwg5ZG95ZCNIHwg5o+P6L+HIHwKfC3igJTigJTigJQtfC3igJTigJTigJTigJQtfAp8IGBWYCB8IOWFqOiAhemAieaLqeaWh+acrOaJgOWcqOWdkOaghyB8CnwgYHZgIHwg6L+b5Y+j5Y+v6KeG5qih5byPLOWPr+S7peS9v+eUqCBoamtsIOenu+WKqOmAieaLqSB8CnwgYHZpcGAgfCDpgInmi6nlvZPliY3pvKDimoQg|CnwgYHZhcGAgfCDpgInmi6nlvZPliY3pvKDimoTlj4roh6rmnIDmnIDliY3nmoTnqbzooYwg|CgojIyDml4vmnKzpgInmi6nlt6XlhbcKCnwg5ZG95ZCNIHwg5o+P6L+HIHwKfC3igJTigJTigJQtfC3igJTigJTigJTigJQtfAp8IGB2aXRgIHwg6YCJ5oup5piO56S65Ye95pyv5YaF5a65IHwKfCBgdmF0YCB8IOmAieaLqeaYjuekuuWHveacr+WGheWuueeahOWGheWuuSB8CnwgYHZpd2AgfCDpgInmi6nlvZPliY3ljZXor5Ug|CnwgYHZhd2AgfCDpgInmi6nlvZPliY3ljZXor5Xlj4roh6rmnIDmnIDliY3nmoTnqbzooYwg|CgojIyDpgInkuK3lkI7nmoTmk43kvZzloLHmnpwKCumAieS4reWGheWkmuS7peWQjuWwhuWFqOmDqOS4reWkmuWHveaMh+azqOWHuuW6lOWkmuW5s3rjgIIKCnwg5ZG95ZCNIHwg5o+P6L+HIHwKfC3igJTigJTigJQtfC3igJTigJTigJTigJQtfAp8IGBkYCB8IOWIoOmZpOmBruaVj+iDhemjryB8CnwgYHlgIHwg5aSN5Yi25YaF5a65IHwKfCBgPmAgfCDkuK3pgInmi6nnmoTlhoXlrrkg|CnwgYDxgIHwg5pS+5aSW5YaF5a65IHwKCiMjIOS9v+eUqOW7uuihogoKMS4g5p6E6YCg55qE6L+b5YWl6YCJ5oupCgoyLiDpgJrlh7rlvZPlvow=
+# Vim 选择命令
+
+这个文档整理了 Vim 中常用的代码和文本选择命令。
+
+## 基于缩进的代码块选择
+
+| 命令 | 描述 |
+|------|------|
+| `viB` | 选择外层代码块 |
+| `vaB` | 选择外层代码块及其花括号 |
+| `vi{` | 选择花括号内的内容 |
+| `va{` | 选择花括号及其内容 |
+
+## 基于括号的选择
+
+| 命令 | 描述 |
+|------|------|
+| `vi(` | 选择小括号内的内容 |
+| `va(` | 选择小括号及其内容 |
+| `vi[` | 选择中括号内的内容 |
+| `va[` | 选择中括号及其内容 |
+
+## 基本选择命令
+
+| 命令 | 描述 |
+|------|------|
+| `V` | 选择整行 |
+| `v` | 进入可视模式，可以用 hjkl 移动选择 |
+| `vip` | 选择当前段落 |
+| `vap` | 选择当前段落及其后的空行 |
+
+## 文本对象选择
+
+| 命令 | 描述 |
+|------|------|
+| `vit` | 选择 XML/HTML 标签内的内容 |
+| `vat` | 选择 XML/HTML 标签及其内容 |
+| `viw` | 选择当前单词 |
+| `vaw` | 选择当前单词及其后的空格 |
+
+## 选中后的操作命令
+
+选中文本后，可以使用以下命令进行操作：
+
+| 命令 | 描述 |
+|------|------|
+| `d` | 删除选中内容 |
+| `y` | 复制选中内容 |
+| `>` | 增加缩进 |
+| `<` | 减少缩进 |
+
+## 使用建议
+
+1. 从简单的 `v` 命令开始练习
+2. 理解 `i` (inner) 和 `a` (around) 的区别
+3. 多练习括号和标签的选择命令，这在编程中特别有用
+4. 熟悉了基本命令后，尝试组合使用来提高效率
+
+## 记忆技巧
+
+- `i` 表示 "inner"（内部），选择不包括分隔符
+- `a` 表示 "around"（周围），选择包括分隔符
+- `v` 表示 "visual"（可视），是选择模式的基础命令
